@@ -1,0 +1,24 @@
+{
+    "name": "krsaas/appstore",
+    "description": "KrSaaS Appstore Component.",
+    "type": "library",
+    "require": {
+        "ext-zip": "*",
+        "hyperf/translation": "~3.1.0",
+        "nette/utils": "dev-master",
+        "hyperf/guzzle": "~3.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Krsaas\\Appstore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "krsaas",
+            "email": "krsaas@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
